@@ -77,19 +77,19 @@
 					<li>husky &amp; lint-staged</li>
 					<li>travis-ci</li>
 					<li>codecov</li>
+					<li>typedoc</li>
+					<li>npm module(publish)</li>
 				</ul>
 				<h1 id="prerequisite">Prerequisite</h1>
-				<h3 id="serverless">serverless</h3>
-				<pre><code class="language-sh">$ npm install -g serverless
-$ npm install -g nodemone
-$ npm install -g eslint</code></pre>
+				<h3 id="nodemon">nodemon</h3>
+				<pre><code class="language-sh">$ npm install -g nodemon</code></pre>
 				<h3 id="nvm">nvm</h3>
 				<pre><code class="language-sh">$ nvm use
 Found <span class="hljs-string">'/Users/tak/workspace/lemoncloud/api/lemon-typescript-template/.nvmrc'</span> with version &lt;8.10.0&gt;
 Now using node v8.10.0 (npm v5.6.0)</code></pre>
 				<hr>
 				<h1 id="how-to-use">How to use</h1>
-				<h3 id="instalation">Instalation</h3>
+				<h3 id="installation">Installation</h3>
 				<pre><code class="language-sh">$ npm install</code></pre>
 				<h3 id="build-for-typescript">Build for typescript</h3>
 				<pre><code class="language-sh">$ npm run build</code></pre>
@@ -97,9 +97,15 @@ Now using node v8.10.0 (npm v5.6.0)</code></pre>
 				<pre><code class="language-sh">$ npm start</code></pre>
 				<h3 id="test">Test</h3>
 				<pre><code class="language-sh">$ npm <span class="hljs-built_in">test</span>
-$ npm run dev:<span class="hljs-built_in">test</span> <span class="hljs-comment"># 개발할 때 사용, --watchAll 추가됨</span></code></pre>
+$ npm run dev:<span class="hljs-built_in">test</span> <span class="hljs-comment"># 개발할 때 사용, --watchAll 추가</span></code></pre>
 				<h3 id="lint">Lint</h3>
 				<pre><code class="language-sh">$ npm run lint</code></pre>
+				<h3 id="publish">Publish</h3>
+				<p>npm module 퍼블리시</p>
+				<pre><code class="language-sh">$ npm login
+Username:
+
+$ npm publish</code></pre>
 				<hr>
 				<h1 id="travis-ci-build-status">Travis-CI 설정 <a href="https://travis-ci.com/louis-lemon/lemon-typescript-template"><img src="https://travis-ci.com/louis-lemon/lemon-typescript-template.svg?branch=develop" alt="Build Status"></a></h1>
 				<ul>
